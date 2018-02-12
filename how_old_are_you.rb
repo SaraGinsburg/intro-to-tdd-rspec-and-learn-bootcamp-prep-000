@@ -4,7 +4,7 @@ puts "What year were you born?"
 birth_year = gets.to_i
 puts current_age_for_birth_year(birth_year)
 puts "testing this line"
-puts Time.now.year - 5
+puts Time.now.year - 2003
 users_age = current_age_for_birth_year(birth_year)
  + (Time.now.year - 2003)
 
